@@ -35,3 +35,10 @@ CUDA_VISIBLE_DEVICES=0 tts --text "Ciao Pippo" --model_path "OUTPUT_PATH/best_mo
 ```
 CUDA_VISIBLE_DEVICES=0 tts-server --model_path "OUTPUT_PATH/best_model.pth.tar" --config_path "OUTPUT_PATH/config.json"
 ```
+
+## Results
+|Model|Dataset|
+|----|------|
+|[glowtts](https://huggingface.co/z-uo/glowtts-male-it/tree/main)|[male-LJSpeech-italian](https://huggingface.co/datasets/z-uo/male-LJSpeech-italian)|
+|[glowtts](https://huggingface.co/z-uo/glowtts-female-it/tree/main)|[female-LJSpeech-italian](https://huggingface.co/datasets/z-uo/female-LJSpeech-italian)|
+
